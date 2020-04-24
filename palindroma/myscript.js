@@ -1,16 +1,16 @@
 // scrivere una funzione per capire se una parola è palindroma. Quindi chiedere una parola all'utente, utilizzare la funzione per sapere se la parola inserita è palindroma e stampare un messaggio appropriato
 
 // Scrivo una var di prova
-var parola = 'pippo';
+var parola = prompt('Digita una parola');
 console.log(parola);
 
 var restituzione_parola = controlloParola(parola);
 
 if (restituzione_parola) {
-    console.log('é palindroma');
+    console.log('la parola é palindroma');
 
 } else {
-    console.log('non è');
+    console.log('la parola non è palindroma');
 }
 
 // apro la funzione
